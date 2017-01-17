@@ -1,5 +1,5 @@
 function selectionSort(args) {
-    let arrayGiven = args[0].split('\n').map(Number),
+    var arrayGiven = args[0].split('\n').map(Number),
         i,
         j,
         position,
